@@ -1,0 +1,7 @@
+build/
+external/*
+!external/json.hpp
+!external/catch.hpp
+bad_config.json
+test_config.json
+.vscode/
