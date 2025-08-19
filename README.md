@@ -27,14 +27,14 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/yourusername/CacheService.git
+git clone https://github.com/sendlE1337/KeyValue-store.git
 cd CacheService
 
 # Создание build директории
 mkdir build && cd build
 
 # Конфигурация и сборка
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. 
 make -j$(nproc)
 
 # Запуск тестов
